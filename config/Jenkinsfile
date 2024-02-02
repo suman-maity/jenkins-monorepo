@@ -1,0 +1,10 @@
+pipeline {
+    agent any
+    stages {
+        stage('config') {
+            steps {
+                echo 'Runnig config'
+            }
+        }
+    }
+}
